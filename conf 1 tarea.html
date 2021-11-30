@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    
+    <head>
+        <title>Historia de Cuba</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    
+    
+     <body>
+         
+         
+         <form action="url" method="post" name="primero">         <!-- Tosos los form. comienzan con esto. Admite algunos atributos (action y method) -->
+                                                                  <!-- action: ubicación URL  y method:con q metodo HTTP se envian los datos(get o post ) -->
+        <label> Nombre:</label>
+        <input type="text" id="name" name="nombre de usuario" >    <br> <br>   <!-- para q alga el cuadro -->
+        
+        <label> Contraseña:</label>
+        <input type="text" id="password" name="contraseña de usuario" >   <br> <br>
+        
+         <label> Sexo:</label>
+        <input type="radio" name="sexo masculino" value="M"> Masculino /
+        <input type="radio" name="sexo femenino" value="F"> Femenino       <br> <br>
+        
+        
+        <label> Cubano: </label>
+        <input type="checkbox" name="nacionalidad del usuario " value="checkbox"> <br>
+       
+       
+        
+        <select name="ocupation">
+            <option value="1"> Estudiante</option>
+            <option value="2"> Trabajador</option>
+            
+        </select>                                         <br> <br>
+        
+        <label> </label>
+        <input type="submit" name="Aceptar petición" value="Aceptar">
+       
+        <label> </label>
+        <input type="submit" name="Cancelar petición" value="Cancelar">      <!-- button acepta el atributo type(submit, reset o button) . El submit envia los datos del formulario a la pag web definida por el atributo action del elemento <form>-->
+           
+       
+    </form>
+         
+          <header>
+            <h1>Breve reseña de la historia de Cuba (1492-1959)</h1>
+        </header>
+         
+          <nav>                                                                      <!-- utilicé-->
+            <ol>                                                                     
+                
+                <li><a href="http://sociedadpcma.org.cu"> Academia de la Historia de Cuba</a> </li>  <br>
+                <li> <a href="http://cubaysuhistoria.wordpress.com"> Temas históricos de nuestro pasado nacional</a></li>
+                
+            </ol>
+        </nav>
+         
+         <section>
+            <article>
+                <header>
+                    <h2>Articulo 1</h2>
+                </header>
+                <p>La historia de Cuba no se inicia el 10 de octubre de 1868 con el alzamiento independentista de Carlos Manuel de Céspedes en su ingenio Demajagua. Esa intransigente y valiente decisión del abogado bayamés tiene sus antecedentes en el devenir histórico del pueblo cubano desde siglos anteriores. La nueva sociedad que comenzó a conformarse en la Isla a partir del proceso de conquista y colonización hispana en el siglo XVI, la sociedad criolla, expresó la integración de elementos culturales aborígenes, africanos y europeos. </p>
+            </article>
+             <strong > Carlos Manuel de Céspedes es conciderado el padre de la Patria. </strong>                   <!-- texto reorzado-->
+             </section>
+         
+         <hr>
+         
+         <section>
+             
+              <article>
+                <header>
+                    <h3>Articulo 2</h3>
+                </header>
+                  
+                <p>Estas comunidades aborígenes de Cuba tenían niveles de desarrollo socioeconómicos diferentes ya que unas eran comunidades preagroalfareras que basaban su subsistencia en la caza menor, la recolección y en la pesca costera.</p>
+            </article>
+             
+             <img src="img/comunidad aborigen.jpg" alt="comunidades agoalfareras" height="400"> <br>
+             <figcaption> Comunidades agroalfareras</figcaption> <br>                                  <!--ponerle título a la img-->
+             
+             <q>Esta es la tierra más hermosa que hojos humanos hallan visto </q>                       <!-- define una cita corta-->
+             
+         </section>
+         
+              <hr width="95%">                            <!-- linea horizontal con un ancho de 95% o 95 px-->
+       
+         
+         <section>
+             <article>
+                  <header>
+                    <h3>Articulo 3</h3>
+                </header>
+                 
+                 <p><i> El 1 de  enero de 1959 con la victoria revolucionaria culminaba un largo proceso de luchas iniciado en 1868 que tuvo como objetivos esenciales en cada uno de sus períodos  la independencia del país y el progreso de la sociedad cubana.</i></p>       <!-- texto en cursiva-->
+             </article>
+             
+             <p> <ins>  El 17 de mayo de 1959 se firmó por Fidel Castro Ruz  en la Comandancia General del Ejército Rebelde, en La Plata,  la Primera  Ley de Reforma Agraria .Con la Ley se nacionalizó casi el 50% de la tierra, quedando en poder del Estado el 41 % de la superficie cultivable, mientras el 31,6% pasó a manos de los pequeños agricultores, lo que representaba más del 70% del potencial agrícola del país. Rebaja del precio de las tarifas telefónicas, eléctricas y del gas y el aumento de las fuentes de trabajo para erradicar el desempleo acumulado e incrementar y extender la pensión de la seguridad social a toda la población trabajadora. </ins></p>  <!-- texto insertado-->
+             
+             
+             <img src="img/Imagen1.png" height="350" align="center">         <!-- alight es alinear-->
+             <figcaption> Maqueta del Cuartel Moncada(Santiago de Cuba).</figcaption> <br>
+             
+             
+             <img src="img/image.jpg.png" alt="1ra ley de reforma agraria" height="350">  <!-- height(tamaño). con br se pone deajo y con wbr se pone al lado -->
+             <figcaption> Fidel Castro en la firma de la primera ley de reforma agraria. </figcaption>
+             
+               <p align="center"> Fidel Castro Ruz vive en el corazón de todos los cubanos.</p>
+
+            
+          </section>
+              
+              
+         <table border="1">
+             <tr> 
+                 <th colspan="2"> Fecha histórica </th>
+                 <th colspan="2"> Hecho</th>
+                  
+             </tr>
+             
+             <tr> 
+                 <td colspan="2">  1492  </td>
+                  <td colspan="2">  El almirante Cristóbal Colón llegó a tierras cubanas.</td>
+                   
+             </tr>
+             
+              <tr> 
+                 <td colspan="2">  10 de octubre de 1868 </td>
+                  <td colspan="2">  Alzamiento independentista de Carlos Manuel de Céspedes en su ingenio Demajagua.</td>
+                   
+             </tr>
+             
+              <tr>
+                  <td colspan="2"> 26 de julio de 1958</td>
+                  <td colspan="2"> Asalto a los cuarteles Moncada y Carlos Manuel de Céspedes.</td>
+             </tr>
+             
+             <tr> 
+                 <td colspan="2"> 1 de enero de 1959 </td>
+                  <td colspan="2"> Triunfo de la Revolución cubana.</td>
+                   
+             </tr>
+             
+             <tr> 
+                 <td colspan="2"> 17 de mayo de 1959 </td>
+                  <td colspan="2"> Fidel Castro Ruz firma en la Comandancia General del Ejército Rebelde, en La Plata, la Primera Ley de Reforma Agraria. </td>
+                   
+             </tr>
+             
+             </table>
+     <figcaption> Principales hechos históricos de esta etapa </figcaption> <br>
+         
+         
+               <audio controls>                                                     <!-- audio -->
+                   <source src="audio componentes.mp3" type="audio/mp3">
+                   </audio>       
+     <br> 
+     
+    <!-- <video width="320" height="240" controls>
+         <source src="cumple papi.3gp" type="audio/3gp" >
+     </video>
+         -->
+         
+         <footer>
+             <p> <span style="color: violet"> Rosa Lidia Cedeño Tamayo</span>, Universidad de las Ciencias Informáticas, 2401, 9 de noviembre de 2021</p>
+            <time>16:00  </time>                           <!--para la hora o fecha -->
+            
+        </footer>
+         
+          
+    </body>
+    
+    </html>
